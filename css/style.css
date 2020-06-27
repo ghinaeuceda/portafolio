@@ -1,0 +1,94 @@
+
+body{
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #878787;
+}
+header{
+	background-color:#CBB499;
+	padding: 20px 0;
+	position: absolute;
+	width: 100%;
+	z-index: 9999999;
+	font-size: 30px;
+}
+
+#inicio{
+	background-image: url("../img/home.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	padding: 25% 0;
+	opacity: 80%
+}
+
+#inicio h3,
+slides h3{
+	font-family: "American Purpose Casual 02", "New Era Casual Regular";
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	text-align: center;
+
+}
+#inicio h1,
+#slides h1{
+	font-size: 70px;
+	font-weight: 700;
+}
+
+footer{
+	background-color:#CBB499;
+	padding: 20px 0;
+	color: #FFFFFF;
+	font-size: 13px;
+}
+
+footer ul{
+	text-align: center;
+}
+
+footer ul il{
+	padding-right: 15px;
+}
+
+footer ul il a{
+	color: #fff;
+	font-size: 16px;
+}
+
+.padding{
+	padding: 30px 0 0 0;
+}
+
+#carousel .carousel-caption{
+	display: grid;
+	align-items: center;
+	align-content: center;
+	justify-content: center;
+	height: 100%;
+}
+
+#info{
+	background-color: #fff;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #000;
+}
+#info img{
+padding: 30% 0 5% 0;
+width: 350px;
+margin-left: 200px;
+}
+
+#info h3{
+	padding: 28% 0 10%;
+	font-weight: lighter;
+	font-size: 30px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-align: left;
+	margin-right: 210px;
+	text-transform: uppercase;
+}
